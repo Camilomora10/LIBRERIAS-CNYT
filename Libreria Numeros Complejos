@@ -1,11 +1,8 @@
 ##**LIBRERIA NUMEROS COMPLEJOS**
 El lenguaje de programacion de esta libreria se basa en Phyton y nos permitira trabajar operaciones con numeros complejos.
 
-
-
 ---
-
-import math
+`import math
 
 """Libreria de Numeros complejos. Contara con atributos x, y , r y angle.
     Donde a y b con las componentes cartesianes ( x : parte real , y: parte imaginaria),
@@ -132,11 +129,16 @@ def polares_cartesianas_complejos(r:int, a:int) -> str:
     respuesta = "(" + parte_real + "," + parte_imaginaria + ")"
     return respuesta
 
-
-
-
+`
 
 ---
+
+
+
+
+
+
+
 
 *Esta libreria fue creada en pycharm.*
 
