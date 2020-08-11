@@ -131,10 +131,13 @@ return respuesta
 ---  
 ### **Introduccion de los Numeros Complejos**  
 El numero **a + ib** lo representaremos predeterminadamente mediante la dupla:  
-$$(a,b) $$ 
+(a,b)
+
 con la opcion de imprimirla en el estilo  
-$$(a + ib)$$  
+(a + ib) 
+
 y su forma polar:  
-$$ (r, \theta) $$  
+
+(r, θ) 
   
 ---
