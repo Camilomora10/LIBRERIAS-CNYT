@@ -1,7 +1,10 @@
 ##**LIBRERIA NUMEROS COMPLEJOS**
 El lenguaje de programacion de esta libreria se basa en Phyton y nos permitira trabajar operaciones con numeros complejos.
-
----
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
 `import math
 
 """Libreria de Numeros complejos. Contara con atributos x, y , r y angle.
