@@ -45,6 +45,13 @@ def suma_matrices(mat_1, mat_2):
             mat_1[i][j] = int(mat_1[i][j]) + int(mat_2[i][j])
     return mat_1
 
+def inversa_matriz(mat):
+    fila = len( mat )
+    colum = len(mat[0])
+    for i in range(fila):
+        mat[i] = inverso_aditivo_r2(mat[ i ])
+    return mat
+
 def transpuesta_matriz_vec(mat):
     fila = len(mat)
     columnas = len(mat[0])
