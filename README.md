@@ -75,9 +75,12 @@ main()
 ```
  * ## Documentacion
  Es necesario que conozcas que operacion realiza cada funcion y cuales son los parametros que debes ingresar para poder usarla, por eso te mostramos la documuentacion de las librerias que manejamos.
- 1. 
- 2. 
- 
+ 1. Documentacion Complejos]
+ 2. Documentacion Matrizes y Vectores]
+ * ## Pruebas
+ A continuacion te mostraremos pruebas de cada libreria, para que te hagas una idea de como puedes trabajar las funciones:
+ 1. Pruebas Libreria Complejos
+ 2. Pruebas Libreira Matrizes y Vectores
  
  
  
