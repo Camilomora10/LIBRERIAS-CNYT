@@ -1,10 +1,8 @@
-"""Libreria de Numeros complejos. Contara con atributos x, y , r y angle.
-    Donde a y b con las componentes cartesianes ( x : parte real , y: parte imaginaria),
-    r es el modulo o magnitud, y angle es angulo theta en coordenadas polares.
-    Son INMUTABLES , por lo tanto una vez creados no se pueden modificar ninguno de sus atributos.
-    A continuacion te presentamos lo que realiza cada funcion, los parametros que debes ingresar, y
-    lo que te retorna cada funcion.
- """
+Libreria de Numeros complejos. Contara con atributos x, y , r y angle.
+Donde a y b con las componentes cartesianes ( x : parte real , y: parte imaginaria), r es el modulo o magnitud, y angle es angulo theta en coordenadas polares.
+Son INMUTABLES , por lo tanto una vez creados no se pueden modificar ninguno de sus atributos.
+A continuacion te presentamos lo que realiza cada funcion, los parametros que debes ingresar, y lo que te retorna cada funcion.
+
 ```
 def suma_complejos(x: int, y: int, a: int, b: int) :
     """
