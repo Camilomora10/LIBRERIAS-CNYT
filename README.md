@@ -46,7 +46,7 @@ Para que puedas usar las funciones de los numeros complejos primero tendras que 
 Luego de tener lista la consola descargue las librerias correspondientes que deseas usar, estas se caracterizan por terminar en .py . Una vez descargadas las librerias inicialas en la aplicacion pycharm commiunity en la ventana file open, Una vez abiertas podra ver las funciones de los numeros complejos y poder usarlas.
 
 ## Manual de Uso
- * #Usar Funciones
+ * ##Usar Funciones
  Para que puedas usar las funciones de los numeros complejos abre la libreria que deseas usar y dirigete a la funcion:
  ```
  def main():
