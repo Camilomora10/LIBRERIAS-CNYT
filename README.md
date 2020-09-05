@@ -62,14 +62,14 @@ def main():
     print(res)
 main()
 ```
-2 Digite los parametros:
+2. Digite los parametros:
 ```
 def main():
     res = suma_complejos(12,3,4,6)
     print(res)
 main()
 ```
-3 Salida del Resultado:
+3. Salida del Resultado:
 ```
 (17,7)
 ```
