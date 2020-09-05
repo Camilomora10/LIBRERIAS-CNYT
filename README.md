@@ -42,15 +42,11 @@ Para que puedas usar nuestra libreia de numeros complejos necesitaras un ordenad
 El lenguaje de programacion que usaremos sera phyton el cual lo puedes ejecutar desde consolas como lo son ide o PyCharm entre otros.
 
 ## Instalacion
-Para que puedas usar las funciones de los numeros complejos primero tendras que descargar el lenguaje de programacion [phyton](https://www.python.org/downloads/) la version que prefieras, ademas necesitaras una consola donde puedas ejecutar phyton, en este caso usaremos [PyCharm Comiunity](https://www.jetbrains.com/es-es/pycharm/download/#section=windows) pero tu podras la que quieras.
-Luego de tener lista la consola descargue las librerias correspondientes que deseas usar, estas se caracterizan por terminar en .py . Una vez descargadas las libreias inicielas en la aplicacion pycharm commiunity en la ventana file open, allí podra ver las funciones de los numeros complejos y poder usarlas.
+Para que puedas usar las funciones de los numeros complejos primero tendras que descargar el lenguaje de programacion [phyton](https://www.python.org/downloads/) la version que prefieras, ademas necesitaras una consola donde puedas ejecutar phyton, en este caso usaremos [PyCharm Comiunity](https://www.jetbrains.com/es-es/pycharm/download/#section=windows) pero tu podras usar la que quieras.
+Luego de tener lista la consola descargue las librerias correspondientes que deseas usar, estas se caracterizan por terminar en .py . Una vez descargadas las librerias inicialas en la aplicacion pycharm commiunity en la ventana file open, Una vez abiertas podra ver las funciones de los numeros complejos y poder usarlas.
 
-
-## Contenido de la libreria
-La libreria cuenta con las siguientes partes:
-1. Readmi
-2. libreria Numeros complejos
-3. test de libreria
+## Manual de Uso
+ * ## prrp
 
 
 ## Built With
