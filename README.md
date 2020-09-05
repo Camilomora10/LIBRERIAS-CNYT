@@ -46,7 +46,7 @@ Para que puedas usar las funciones de los numeros complejos primero tendras que 
 Luego de tener lista la consola descargue las librerias correspondientes que deseas usar, estas se caracterizan por terminar en .py . Una vez descargadas las librerias inicialas en la aplicacion pycharm commiunity en la ventana file open, Una vez abiertas podra ver las funciones de los numeros complejos y poder usarlas.
 
 ## Manual de Uso
- * ## Usar Funciones
+ * ## ¿Cómo usar las Funciones?
  Para que puedas usar las funciones de los numeros complejos abre la libreria que deseas usar y dirigete a la funcion:
  ```
  def main():
@@ -54,7 +54,35 @@ Luego de tener lista la consola descargue las librerias correspondientes que des
     print(respuesta)
  main()
 ```
-
+Cambia "respuesta" por la operacion que deseas realizar, allí podras digitara los parametros que requiere la operacion compleja, luego dale Run en la consola y automaticamente te aparecera la respuesta de la operacion que usaste. A continuacion un ejemplo:
+ 1. Coloca la operacion que deseas realizar:
+```
+def main():
+    res = suma_complejos()
+    print(res)
+main()
+```
+2 Digite los parametros:
+```
+def main():
+    res = suma_complejos(12,3,4,6)
+    print(res)
+main()
+```
+3 Salida del Resultado:
+```
+(17,7)
+```
+ * ## Documentacion
+ Es necesario que conozcas que operacion realiza cada funcion y cuales son los parametros que debes ingresar para poder usarla, por eso te mostramos la documuentacion de las librerias que manejamos.
+ 1. 
+ 2. 
+ 
+ 
+ 
+ 
+ 
+ 
 ## Built With
 
 * [Slack edition](https://stackedit.io/app#) - Pagina web usada para crear los archivos
