@@ -1,10 +1,21 @@
 # Libreria Números Complejos
 
-Daremos a conocer como funciona las operaciones de suma, resta, producto, division, modulo, fase y conjugado de los números complejos a travez de una libreria que usa como 
-lenguaje de programacion phyton, con el fin de dar una nocion de los numeros complejos y como se y pueden trabajarlos desde un lenguaje de programacion.
+Este proyecto consiste en una libreria que permitiera conocer los numeros complejos y cómo se realizan sus operaciones a travez de funciones de codigo creadas en el lenguaje de programacion phyton, con el fin de dar una nocion de los numeros complejos y como se y pueden trabajarlos desde un lenguaje de programacion.
+
+Cuenta con las operaciones mas basicas de los numeros complejos como lo son:
+
+ * Suma 
+ * Resta
+ * Producto 
+ * Divison
+ * Modulo 
+ * Fase
+ * Conjugado
+
+Ademas de las operaciones basicas entre numeros complejos, en esta libreria trabajeremos con vectores y matrices complejas, en la cual podremos realizar las siguientes operaciones:
 
 ## Otras funciones
-En este programa se realizo la implementacion de operaciones para vectores y matrices complejas, la cual es capaz de realizar las siguientes operaciones:
+
 1. Adición de vectores complejos.
 2. nverso (aditivo) de un vector complejo.
 3. Multiplicación de un escalar por un complejo vectorial.
