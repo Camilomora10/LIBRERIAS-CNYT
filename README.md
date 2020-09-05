@@ -76,7 +76,7 @@ main()
  * ## Documentacion
  Es necesario que conozcas que operacion realiza cada funcion y cuales son los parametros que debes ingresar para poder usarla, por eso te mostramos la documuentacion de las librerias que manejamos.
  1. [Documentacion Complejos](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/documentacion1.md)
- 2. Documentacion Matrizes y Vectores]
+ 2. [Documentacion Matrizes y Vectores](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/documentacion2.md)
  * ## Pruebas
  A continuacion te mostraremos pruebas de cada libreria, para que te hagas una idea de como puedes trabajar las funciones:
  1. Pruebas Libreria Complejos
