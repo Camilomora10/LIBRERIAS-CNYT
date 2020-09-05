@@ -1,9 +1,8 @@
-"""Libreria de Matrices y Vectores complejos
+Libreria de Matrices y Vectores complejos
 
-    A continuacion te presentamos lo que realiza cada funcion, los parametros que debes ingresar, y
-    lo que te retorna cada funcion.
- """
+A continuacion te presentamos lo que realiza cada funcion, los parametros que debes ingresar, y lo que te retorna cada funcion.
 
+```
 def suma_vectores_r2(vector1:list, vector2:list):
     """
     Funcion que suma vectores complejos de 2 componentes
@@ -11,7 +10,8 @@ def suma_vectores_r2(vector1:list, vector2:list):
     :param vector2: lista que representa el vector 2 complejo de 2 componentes
     :return: Lista que representa componente x y y de la suma de los 2 vectores
     """
-
+```
+```
 def suma_vectores_r3(vector1:list, vector2:list):
     """
     Funcion que suma vectores complejos de 3 componentes
@@ -19,21 +19,24 @@ def suma_vectores_r3(vector1:list, vector2:list):
     :param vector2: lista que representa el vector 2 complejo de 2 componentes
     :return: Lista que representa componente x,y y z de la suma de los 2 vectores
     """
-
+```
+```
 def inverso_aditivo_r2(vector:list):
     """
     Funcion que realiza el inverso aditivo de un vector complejo de 2 componentes.
     :param vector: lista que representa el vector complejo
     :return: lista que representa componente x y z del inverso aditivo del vector.
     """
-
+```
+```
 def inverso_aditivo_r3(vector:list):
     """
     Funcion que realiza el inverso aditivo de un vector complejo de 3 componentes.
     :param vector: lista que representa el vector complejo
     :return: lista que representa componente x,y y z del inverso aditivo del vector.
     """
-
+```
+```
 def multi_escalar_r2(vector:list,num:list):
     """
     Funcion que realiza la multiplicacion de un escalar complejo por un vector complejo de 2 componentes.
@@ -41,7 +44,8 @@ def multi_escalar_r2(vector:list,num:list):
     :param num:lista que representa el escalar complejo.
     :return: lista que representa componente x y y vector resultante.
     """
-
+```
+```
 def multi_escalar_r3(vector:list,num:list) :
     """
     Funcion que realiza la multiplicacion de un escalar complejo por un vector complejo de 3 componentes.
@@ -49,7 +53,8 @@ def multi_escalar_r3(vector:list,num:list) :
     :param num: lista que representa el escalar complejo.
     :return: lista que representa componente x,y y z vector resultante.
     """
-
+```
+```
 def suma_matrices(mat_1:list, mat_2:list):
     """
     Funcion que realiza la suma de 2 matrices complejas.
@@ -58,20 +63,24 @@ def suma_matrices(mat_1:list, mat_2:list):
     :param mat_2: lista que representa la matriz 1 compleja.
     :return: Lista que representa la suma de las 2 matrices complejas.
     """
-
+```
+```
 def inversa_matriz(mat:list):
     """
     Funcion que realiza la inversa de una matriz.compleja
     :param mat: Lista que representa la matriz compleja
     :return: Lista que representa la inversa de la matriz compleja.
     """
+```
+```
 def transpuesta_matriz_vec(mat:list):
     """
     Funcion que realiza la transpuesta de una matriz o vector complejo.
     :param mat: lista que representa la matriz o vector complejo.
     :return: Lista que representa la transpues de la matriz o vector complejo.
     """
-
+```
+```
 def multi_escalar_matriz(mat:list,num:list):
     """
     Funcion que realiza la multiplicacion de un escalar complejo por una matriz compleja.
@@ -79,21 +88,24 @@ def multi_escalar_matriz(mat:list,num:list):
     :param num: Lista que representa el escalar complejo.
     :return: Lista que representa la matriz compleja resultante.
     """
-
+```
+```
 def conjugada_matriz_vec(mat:list):
     """
     Funcion que realiza la conjugada de una matriz o vector complejo.
     :param mat: Lista que representa la matriz o vector complejo.
     :return: lista que representa la matriz o vector resultante.
     """
-
+```
+```
 def adjunta_mat_vec(mat:list):
     """
     Funcion que realiza la adjunta de una matriz compleja.
     :param mat: Lista que representa la matriz compleja.
     :return: Lista que representa la matriz adjunta compleja.
     """
-
+```
+```
 def producto_matrices(mat_1:list,mat_2:list):
     """
     Funcion que realiza el producto de dos matrices complejas.
@@ -103,7 +115,8 @@ def producto_matrices(mat_1:list,mat_2:list):
     :param mat_2: Lista que representa la matriz 2 compleja.
     :return: Lista que representa la matriz resultante compleja.
     """
-
+```
+```
 def accion_matriz(mat:list,vec:list):
     """
     Funcion que representa la accion de una matriz compleja sobre un vector complejo.
@@ -113,7 +126,8 @@ def accion_matriz(mat:list,vec:list):
     :param vec: Lista que representa el vector complejo.
     :return: Lista que representa el vector complejo resultante
     """
-
+```
+```
 def producto_interno(vec1:list,vec2:list):
     """
     Funcion que representa el producto interno de dos vectores complejos.
@@ -121,14 +135,16 @@ def producto_interno(vec1:list,vec2:list):
     :param vec2: Lista que representa el vector 2 complejo.
     :return: Lista que representa el vector complejo resultante.
     """
-
+```
+```
 def norma_vector(vector:list):
     """
     Funcion que realiza la norma de un vector complejo.
     :param vector: Lista que representa el vector complejo.
     :return: Lista que representa la norma del vector complejo.
     """
-
+```
+```
 def distance_vectores(vec1:list,vec2:list):
     """
     Funcion que determina la distancia entre dos vectores complejos.
@@ -136,22 +152,24 @@ def distance_vectores(vec1:list,vec2:list):
     :param vec2: lista que representa el vector 2 complejo
     :return: Lista que representa la distancia de los dos vectores complejos.
     """
-
-
+```
+```
 def matriz_unitaria(matriz:list):
     """
     Funcion que determina si una matriz compleja es unitaria o no.
     :param matriz: lista que representa la matriz compleja
     :return: Bool que representa si es unitaria o no.
     """
-
+```
+```
 def matriz_hermitania(matriz:list):
     """
     Funcion que determina si una matriz compleja es hermitiana o no.
     :param matriz: Lista que representa la matriz compleja.
     :return: Bool que representa si es hermitiana o no.
     """
-
+```
+```
 def producto_tensor(mat1:list,mat2:list):
     """
     Funcion que determina el producto tensor entre dos matrices complejas.
@@ -159,3 +177,4 @@ def producto_tensor(mat1:list,mat2:list):
     :param mat2: Lista que representa la matriz 2 compleja.
     :return: Lista que representa la matriz compleja resultante. 
     """
+```
