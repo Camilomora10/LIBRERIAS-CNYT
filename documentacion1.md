@@ -1,4 +1,4 @@
-Libreria de Matrices y Vectores complejos
+Libreria Numeros complejos
 
 A continuacion te presentamos lo que realiza cada funcion, los parametros que debes ingresar, y lo que te retorna cada funcion.
 
