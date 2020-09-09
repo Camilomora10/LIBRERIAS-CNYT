@@ -45,7 +45,7 @@ El lenguaje de programacion que usaremos sera phyton el cual lo puedes ejecutar 
 Para que puedas usar las funciones de los numeros complejos primero tendras que cumplir con algunas condiciones:
 1. Descargar el lenguaje de programacion [phyton](https://www.python.org/downloads/)(click para descargar), ya que nuestras librerias se basan en este lenguaje,usa la version que prefieras.
 2. Necesitaras una consola donde puedas ejecutar phyton, en este caso usaremos [PyCharm Comiunity](https://www.jetbrains.com/es-es/pycharm/download/#section=windows)(click para descargar) pero tu podras usar la que quieras.
-3. Descarga las librerias correspondientes que deseas usar, Dirijase a la opcion ¨Codigo¨ en el inicio de el archivo Githup, Allí podras descargar los archivos en formato zip.A continuacion te presentamos las librerias con que contamos:
+3. Descarga las librerias correspondientes que deseas usar, Dirijase a la opcion ¨Codigo¨ en el inicio de este repositorio, Allí podras descargar los archivos en formato zip.A continuacion te presentamos las librerias con que contamos:
    * [Libreria de Operaciones Basicas de Numeros Complejos.](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/libreriaComplejos.py).(click para ver)
    * [Libreria de matrices y Vectores Complejos.](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/vectores_matrices.py).(click para ver)
 4. Una vez descargado el archivo zip descomprimelo,  Allí podras encontrar las librerias estas se caracterizan por terminar en .py.
@@ -68,7 +68,7 @@ Ademas para representar vectores y matrizes lo haremos por medio de listas en do
 * Una matriz de tamaño 2x2 compleja seria:
 ```
  | a + bi   c + di |
- | e + fi   g - hi  |
+ | e + fi   g - hi |
 ```
 En nuestra libreria sera:
 ```
@@ -145,7 +145,7 @@ def testsumaVect(self):
  * ## Clonar
 Tambien puedes apropiarte de las librerias que usamos clonandolas, para realizar esto dirigete a la opcion ¨Codigo¨ en el inicio de el repositorio, Allí tendras 2 opciones:
  1. Descarga los archivos en formato zip, descomprimelos y usa las librerias en tu consola, estas se caracterizan por terminar en .py.
- 2. Para poder clonar el repositorio sin necesidad de descargarlo, debes tener instalado la aplicacion [Git hup](https://desktop.github.com/)(Click para descargar. Una vez instalada la aplicacion crea una cuenta, Ahora dirigete a la opcion ¨Codigo¨ en el inicio de el repositorio y selecciona "Abrir con GitHup Deskop" y automaticamente la aplicacion clonara el repositorio en tu cuenta.
+ 2. Para poder clonar el repositorio sin necesidad de descargarlo, debes tener instalado la aplicacion [Git hup](https://desktop.github.com/)(Click para descargar). Una vez instalada la aplicacion crea una cuenta, Ahora dirigete a la opcion ¨Codigo¨ en el inicio de el repositorio y selecciona "Abrir con GitHup Deskop" y automaticamente la aplicacion clonara el repositorio en tu cuenta.
  3. Tambien podras compartir la libreria usando el comando git clone el cual se enceuntra en la opcion la opcion ¨Codigo¨ en el inicio de el repositorio, Alli encontraras el link:
  ```
 git clone https://github.com/Camilomora10/LIBRERIAS-CNYT.git
