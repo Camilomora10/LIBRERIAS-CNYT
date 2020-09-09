@@ -131,6 +131,16 @@ Las pruebas en un programa nos permiten verificar que las funcionalidades del pr
 Para este caso usaremos la libreria de python unittest ; la cual es usada para comparar un resultado con otro diciendo si son iguales o no, esta es importada con la línea de codigo import unittest, y la puedes encontrar en nuestro repositorio en formato .py. Los archivos de prueba con que contamos son:
 1. [Unittest Numeros Complejos]().(click para ver)
 2. [Unittest Matrices y Vectores]().(click para ver)
+
+A continuacion se mostrara un ejemplo de una prueba de la funcion suma_vectores la cual nos dice el resultado de la suma entre los vectores complejos a y b el cual es igual a [[2, 6], [4, 8]],  de forma analoga sera para las demas funciones:
+```
+#Numeros Complejos
+a = [ 1,3 ]
+b = [ 2,4 ]
+
+def testsumaVect(self):
+   self.assertEqual(suma_vectoresr2([a, b], [a, b]), [[2, 6], [4, 8]])
+```
  
  * ## Clonar
 Tambien puedes apropiarte de las librerias que usamos clonandolas, para realizar esto dirigete a la opcion ¨Codigo¨ en el inicio de el repositorio, Allí tendras 2 opciones:
