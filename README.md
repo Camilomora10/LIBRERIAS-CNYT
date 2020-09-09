@@ -123,8 +123,8 @@ if__name__ == '__main__':
 ```
  * ## Documentacion
  Es necesario que conozcas que operacion realiza cada funcion y cuales son los parametros que debes ingresar para poder usarla, por eso te mostramos la documuentacion de las librerias que manejamos.
- 1. [Documentacion Complejos](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/documentacion1.md)
- 2. [Documentacion Matrizes y Vectores](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/documentacion2.md)
+ 1. [Documentacion Complejos](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/documentacion1.md).(click para ver)
+ 2. [Documentacion Matrizes y Vectores](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/documentacion2.md).(click para ver)
  
  * ## Pruebas
 Las pruebas en un programa nos permiten verificar que las funcionalidades del programa se cumplan correctamente.
