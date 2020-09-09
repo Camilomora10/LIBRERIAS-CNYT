@@ -110,9 +110,13 @@ if__name__ == '__main__':
  2. [Documentacion Matrizes y Vectores](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/documentacion2.md)
  
  * ## Pruebas
- A continuacion te mostraremos pruebas de cada libreria, para que te hagas una idea de como puedes trabajar las funciones:
- 1. Pruebas Libreria Complejos
- 2. Pruebas Libreira Matrizes y Vectores
+Las pruebas en un programa nos permiten verificar que las funcionalidades del programa se cumplan correctamente.
+Para este caso usaremos la libreria de python unittest ; la cual es usada para comparar un resultado con otro diciendo si son iguales o no, esta es importada con la línea de codigo import unittest, y la puedes encontrar en nuestro repositorio en formato .py. Los archivos de prueba con que contamos son:
+1. [nittest Numeros Complejos]()(click para ver)
+2. [nittest Matrices y Vectores]()(click para ver)
+ 
+ 
+ 
  
  * ## Clonar
  Tambien puedes apropiarte de las librerias que usamos clonandolas, para realizar esto dirigete a la opcion ¨Codigo¨ en el inicio de el repositorio, Allí tendras 2 opciones:
