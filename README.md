@@ -45,35 +45,60 @@ El lenguaje de programacion que usaremos sera phyton el cual lo puedes ejecutar 
 Para que puedas usar las funciones de los numeros complejos primero tendras que cumplir con algunas condiciones:
 1. Descargar el lenguaje de programacion [phyton](https://www.python.org/downloads/)(click para descargar), ya que nuestras librerias se basan en este lenguaje,usa la version que prefieras.
 2. Necesitaras una consola donde puedas ejecutar phyton, en este caso usaremos [PyCharm Comiunity](https://www.jetbrains.com/es-es/pycharm/download/#section=windows)(click para descargar) pero tu podras usar la que quieras.
-3. Descarga las librerias correspondientes que deseas usar, estas se caracterizan por terminar en .py. A continuacion te presentamos las librerias con que contamos:
- * 1. Libreria de Operaciones Basicas de Numeros Complejos.
- * 2. Libreria de matrices y Vectores Complejos.
-4. Una vez descargadas las librerias inicialas en la aplicacion pycharm commiunity en la ventana file-open, Allí selecciona la ubicacion donde descargaste las librerias.
-5. Una vez abiertas podra ver las funciones de los numeros complejos y poder usarlas. ¡Disfrutalas!
+3. Descarga las librerias correspondientes que deseas usar, Dirijase a la opcion ¨Codigo¨ en el inicio de el archivo Githup, Allí podras descargar los archivos en formato zip.A continuacion te presentamos las librerias con que contamos:
+   * [Libreria de Operaciones Basicas de Numeros Complejos.](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/libreriaComplejos.py)(click para ver)
+   * [Libreria de matrices y Vectores Complejos.](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/vectores_matrices.py)(click para ver)
+4. Una vez descargado el archivo zip descomprimelo,  Allí podras encontrar las librerias estas se caracterizan por terminar en .py.
+5. Una vez descargadas las librerias inicialas en la aplicacion pycharm commiunity en la ventana file-open, Allí selecciona la ubicacion donde descargaste las librerias.
+6. Una vez abiertas podra ver las funciones de los numeros complejos y poder usarlas. ¡Disfrutalas!
 
 ## Manual de Uso
+ * ## Introduccion
+Antes de empezar se debe tener en cuenta la forma en que los numeros complejos seran representados, como se sabe los numeros complejos se caracterizan por tener una parte real  y una imaginaria como se observa a continuacion:
+```
+a + bi
+```
+lo equivalente para la libreria sera una lista de longitud 2, cuya posicion 0 sera la parte real y la posicion 1 la parte imaginaria; con respecto al numero anterior el equivalente en la libreria  sera:
+
+```
+[a,b]
+```
+Ademas para representar vectores y matrizes lo haremos por medio de listas en donde la longitud de la lista seran las filas y las columnas la longitud de las filas.
+Una matriz de tamaño 2x2 en nuestra libreria sera:
+
+```
+[ [[a,b],[c,d]], [[e,f],[g,h]] ]
+```
+Un vector de 2 elementos en nuestra libreria sera:
+
+```
+[ [[a,b]], [[e,f]] ]
+```
+
  * ## ¿Cómo usar las Funciones?
- Para que puedas usar las funciones de los numeros complejos abre la libreria que deseas usar y dirigete a la funcion:
+ Para que puedas usar las funciones de los numeros complejos abre la libreria que deseas usar y dirigete al final del archivo, digita main y dale enter, te aparesera lo sieguiente:
+ 
+```
+if__name__ == '__main__': 
+```
+Ahora crea una variable respuesta en donde su valor sera el resultado de la operacion que deseas usar e imprimelo.
  ```
- def main():
+if__name__ == '__main__': 
     respuesta = operacion
     print(respuesta)
- main()
 ```
 Cambia "respuesta" por la operacion que deseas realizar, allí podras digitara los parametros que requiere la operacion compleja, luego dale Run en la consola y automaticamente te aparecera la respuesta de la operacion que usaste. A continuacion un ejemplo:
  1. Coloca la operacion que deseas realizar:
 ```
-def main():
-    res = suma_complejos()
-    print(res)
-main()
+if__name__ == '__main__': 
+    respuesta = suma_complejos()
+    print(respuesta)
 ```
 2. Digite los parametros:
 ```
-def main():
-    res = suma_complejos(12,3,4,6)
-    print(res)
-main()
+if__name__ == '__main__': 
+    respuesta = suma_complejos(12,3,4,6)
+    print(respuesta)
 ```
 3. Salida del Resultado:
 ```
@@ -83,28 +108,29 @@ main()
  Es necesario que conozcas que operacion realiza cada funcion y cuales son los parametros que debes ingresar para poder usarla, por eso te mostramos la documuentacion de las librerias que manejamos.
  1. [Documentacion Complejos](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/documentacion1.md)
  2. [Documentacion Matrizes y Vectores](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/documentacion2.md)
+ 
  * ## Pruebas
  A continuacion te mostraremos pruebas de cada libreria, para que te hagas una idea de como puedes trabajar las funciones:
  1. Pruebas Libreria Complejos
  2. Pruebas Libreira Matrizes y Vectores
  
- 
- 
- 
+ * ## Clonar
+ Tambien puedes apropiarte de las librerias que usamos clonandolas, para realizar esto dirigete a la opcion ¨Codigo¨ en el inicio de el repositorio, Allí tendras 2 opciones:
+ 1. Descarga los archivos en formato zip, descomprimelos y usa las librerias en tu consola, estas se caracterizan por terminar en .py.
+ 2. Para poder clonar el repositorio sin necesidad de descargarlo, debes tener instalado la aplicacion [Git hup](https://desktop.github.com/)(Click para descargar. Una vez instalada la aplicacion crea una cuenta, Ahora dirigete a la opcion ¨Codigo¨ en el inicio de el repositorio y selecciona "Abrir con GitHup Deskop" y automaticamente la aplicacion clonara el repositorio en tu cuenta.
  
 ## Built With
 
-* [Slack edition](https://stackedit.io/app#) - Pagina web usada para crear los archivos
-* [GipHup](https://desktop.github.com/) - Plataforma utilizada para crear el proyecto
-* [Pycharm Commiunity](https://www.jetbrains.com/es-es/pycharm/download/#section=windows) - Consola utilizada para crear codigo
+* [GipHup](https://desktop.github.com/) - Plataforma utilizada para crear el proyecto.
+* [Pycharm Commiunity](https://www.jetbrains.com/es-es/pycharm/download/#section=windows) - Consola utilizada para crear funciones.
+* [phyton](https://www.python.org/downloads/) - lenguaje de programacion usado.
 
 ## Versiones
-Solamente la actual
+* Version 1 Numeros Complejos.
+* Version 2 Matrices y Vectores Complejos (Actual).
 
 ## Authors
 
 * **Yesid Camilo Mora Barbosa** - *Initial work*)
-
-donde se ejecutan todas las pruebas correspondientes. Para ver las funciones utilizadas para las operaciones ingrese en la carpeta de libreria Numeros Complejos y ahi las podra encontrar.
 
 
