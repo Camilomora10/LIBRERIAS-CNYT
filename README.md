@@ -114,7 +114,7 @@ if__name__ == '__main__':
 2. Digite los parametros:
 ```
 if__name__ == '__main__': 
-    respuesta = suma_complejos(12,3,4,6)
+    respuesta = suma_complejos([12,3],[4,6])
     print(respuesta)
 ```
 3. Salida del Resultado:
