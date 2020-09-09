@@ -3,57 +3,34 @@ Libreria de Matrices y Vectores complejos
 A continuacion te presentamos lo que realiza cada funcion, los parametros que debes ingresar, y lo que te retorna cada funcion.
 
 ```
-def suma_vectores_r2(vector1:list, vector2:list):
+def suma_vectores(vector1:list, vector2:list):
     """
-    Funcion que suma vectores complejos de 2 componentes
-    :param vector1: lista que representa el vector 1 complejo de 2 componentes
-    :param vector2: lista que representa el vector 2 complejo de 2 componentes
-    :return: Lista que representa componente x y y de la suma de los 2 vectores
-    """
-```
-```
-def suma_vectores_r3(vector1:list, vector2:list):
-    """
-    Funcion que suma vectores complejos de 3 componentes
-    :param vector1: lista que representa el vector 1 complejo de 2 componentes
-    :param vector2: lista que representa el vector 2 complejo de 2 componentes
-    :return: Lista que representa componente x,y y z de la suma de los 2 vectores
+    Funcion que suma vectores complejos.
+    :param vector1: lista que representa el vector 1 complejo 
+    :param vector2: lista que representa el vector 2 complejo
+    :return: Lista que representa la suma de los 2 vectores complejos.
     """
 ```
+
 ```
-def inverso_aditivo_r2(vector:list):
+def inverso_aditivo_vector(vector:list):
     """
-    Funcion que realiza el inverso aditivo de un vector complejo de 2 componentes.
+    Funcion que realiza el inverso aditivo de un vector complejo.
     :param vector: lista que representa el vector complejo
-    :return: lista que representa componente x y z del inverso aditivo del vector.
+    :return: lista que representa el inverso aditivo del vector.
     """
 ```
+
 ```
-def inverso_aditivo_r3(vector:list):
+def multi_escalar(vector:list,num:list):
     """
-    Funcion que realiza el inverso aditivo de un vector complejo de 3 componentes.
-    :param vector: lista que representa el vector complejo
-    :return: lista que representa componente x,y y z del inverso aditivo del vector.
-    """
-```
-```
-def multi_escalar_r2(vector:list,num:list):
-    """
-    Funcion que realiza la multiplicacion de un escalar complejo por un vector complejo de 2 componentes.
+    Funcion que realiza la multiplicacion de un escalar complejo por un vector complejo.
     :param vector: lista que representa el vector complejo.
     :param num:lista que representa el escalar complejo.
-    :return: lista que representa componente x y y vector resultante.
+    :return: lista que representa el vector resultante.
     """
 ```
-```
-def multi_escalar_r3(vector:list,num:list) :
-    """
-    Funcion que realiza la multiplicacion de un escalar complejo por un vector complejo de 3 componentes.
-    :param vector: lista que representa el vector complejo.
-    :param num: lista que representa el escalar complejo.
-    :return: lista que representa componente x,y y z vector resultante.
-    """
-```
+
 ```
 def suma_matrices(mat_1:list, mat_2:list):
     """
@@ -65,11 +42,11 @@ def suma_matrices(mat_1:list, mat_2:list):
     """
 ```
 ```
-def inversa_matriz(mat:list):
+def inversa_aditiva_matriz(mat:list):
     """
-    Funcion que realiza la inversa de una matriz.compleja
+    Funcion que realiza la inversa aditiva de una matriz compleja.
     :param mat: Lista que representa la matriz compleja
-    :return: Lista que representa la inversa de la matriz compleja.
+    :return: Lista que representa la inversa aditiva de la matriz compleja.
     """
 ```
 ```
