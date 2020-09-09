@@ -65,7 +65,7 @@ lo equivalente para la libreria sera una lista de longitud 2, cuya posicion 0 se
 ```
 Ademas para representar vectores y matrizes lo haremos por medio de listas en donde la longitud de la lista seran las filas y las columnas la longitud de las filas.
 
-Una matriz de tamaño 2x2 compleja seria:
+* Una matriz de tamaño 2x2 compleja seria:
 ```
  | a + bi   c + di |
  | e + fi   g - hi  |
@@ -74,7 +74,7 @@ En nuestra libreria sera:
 ```
 [ [[a,b],[c,d]], [[e,f],[g,h]] ]
 ```
-Un vector de 2 elementos complejo seria:
+* Un vector de 2 elementos complejo seria:
 ```
  | a + bi |
  | c + di |
@@ -82,6 +82,14 @@ Un vector de 2 elementos complejo seria:
 En nuestra libreria sera:
 ```
 [ [[a,b]], [[e,f]] ]
+```
+* Un numero en forma polar sera:
+```
+(r, θ) 
+```
+En nuestra libreria sera:
+```
+[r, θ] 
 ```
 
  * ## ¿Cómo usar las Funciones?
