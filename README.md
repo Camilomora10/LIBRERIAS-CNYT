@@ -42,8 +42,14 @@ Para que puedas usar nuestra libreia de numeros complejos necesitaras un ordenad
 El lenguaje de programacion que usaremos sera phyton el cual lo puedes ejecutar desde consolas como lo son ide o PyCharm entre otros.
 
 ## Instalacion
-Para que puedas usar las funciones de los numeros complejos primero tendras que descargar el lenguaje de programacion [phyton](https://www.python.org/downloads/) la version que prefieras, ademas necesitaras una consola donde puedas ejecutar phyton, en este caso usaremos [PyCharm Comiunity](https://www.jetbrains.com/es-es/pycharm/download/#section=windows) pero tu podras usar la que quieras.
-Luego de tener lista la consola descargue las librerias correspondientes que deseas usar, estas se caracterizan por terminar en .py . Una vez descargadas las librerias inicialas en la aplicacion pycharm commiunity en la ventana file open, Una vez abiertas podra ver las funciones de los numeros complejos y poder usarlas.
+Para que puedas usar las funciones de los numeros complejos primero tendras que cumplir con algunas condiciones:
+1. Descargar el lenguaje de programacion [phyton](https://www.python.org/downloads/)(click para descargar), ya que nuestras librerias se basan en este lenguaje,usa la version que prefieras.
+2. Necesitaras una consola donde puedas ejecutar phyton, en este caso usaremos [PyCharm Comiunity](https://www.jetbrains.com/es-es/pycharm/download/#section=windows)(click para descargar) pero tu podras usar la que quieras.
+3. Descarga las librerias correspondientes que deseas usar, estas se caracterizan por terminar en .py. A continuacion te presentamos las librerias con que contamos:
+ * 1. Libreria de Operaciones Basicas de Numeros Complejos.
+ * 2. Libreria de matrices y Vectores Complejos.
+4. Una vez descargadas las librerias inicialas en la aplicacion pycharm commiunity en la ventana file-open, Allí selecciona la ubicacion donde descargaste las librerias.
+5. Una vez abiertas podra ver las funciones de los numeros complejos y poder usarlas. ¡Disfrutalas!
 
 ## Manual de Uso
  * ## ¿Cómo usar las Funciones?
