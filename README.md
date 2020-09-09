@@ -161,7 +161,7 @@ git clone https://github.com/Camilomora10/LIBRERIAS-CNYT.git
 * Version 2 Matrices y Vectores Complejos (Actual).
 
 ## Licencia
-[Licensia](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/License)
+[Licencia](https://github.com/Camilomora10/LIBRERIAS-CNYT/blob/master/License).(click para ver)
 ## Authors
 
 * **Yesid Camilo Mora Barbosa** - Codigo: 2168535
